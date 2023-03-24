@@ -24,5 +24,7 @@ let generateExcuse = () => {
   let whatIndex = Math.floor(Math.random() * what.length);
   let whenIndex = Math.floor(Math.random() * when.length);
 
-  return who[whoIndex] + " " + what[whatIndex] + " my code " + when[whenIndex];
+  return (
+    who[whoIndex] + " " + what[whatIndex] + " my code " + when[whenIndex] + "!"
+  );
 };
